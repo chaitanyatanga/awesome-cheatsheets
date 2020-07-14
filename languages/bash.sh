@@ -96,6 +96,77 @@ dvips <filename>              # prints .dvi files (i.e. files produced by LaTeX)
 grep <pattern> <filenames>    # looks for the string in the files
 grep -r <pattern> <dir>       # search recursively for pattern in directory
 
+#############################################################################
+# Additional Commands
+#############################################################################
+alias <alias name>='<commands>' #Creating Our Own Commands with alias
+uniq                          # Report or Omit Repeated Lines
+head                          # Print First part of files
+tail                          # Last Part of Files (can be used with logs for live appends)
+apropos <type of command>     # Display Appropriate Commands
+type <command>                # Displaya a command's type
+xargs                         # Accepts input from standard in- put and converts it into an argument list for a specified command.
+tee                           # Read from Stdin and Output to Stdout and File
+id                            # Display user identity
+chmod                         # Change a file's mode
+umask                         # Set the default file permissions
+su                            # Run a shell as another user
+sudo                          # Execute a command as another user
+chown                         # Change a file's owner
+chgrp                         # Change a file's group ownership
+passwd                        # Change a user's password
+adduser 
+useradd 
+groupadd
+printenv – Print part or all of the environment
+#set – Set shell options
+#export – Export environment to subsequently executed programs
+alias – Create an alias for a command
+mount – Mount a file system
+umount – Unmount a file system
+fsck – Check and repair a file system
+fdisk – Manipulate disk partition table
+mkfs – Create a file system
+dd – Convert and copy a file
+#● genisoimage (mkisofs) – Create an ISO 9660 image file
+wodim (cdrecord) – Write data to optical storage media
+md5sum – Calculate an MD5 checksum
+ping – Send an ICMP ECHO_REQUEST to network hosts
+traceroute – Print the route packets trace to a network host
+ip – Show / manipulate routing, devices, policy routing and tunnels
+netstat – Print network connections, routing tables, interface statistics, mas- querade connections, and multicast memberships
+ftp – Internet file transfer program
+wget – Non-interactive network downloader
+ssh – OpenSSH SSH client (remote login program)
+locate – Find files by name
+#● find – Search for files in a directory hierarchy
+xargs – Build and execute command lines from standard input
+#In addition, we will introduce a couple of commands to assist us in our explorations.
+touch – Change file times
+stat – Display file or file system status
+gzip – Compress or expand files
+bzip2 – A block sorting file compressor These are the archiving programs:
+tar – Tape archiving utility
+zip – Package and compress files This is the file synchronization program:
+rsync – Remote file and directory synchronization
+● cat – Concatenate files and print on the standard output
+● sort – Sort lines of text files
+● uniq – Report or omit repeated lines
+● cut – Remove sections from each line of files
+● paste – Merge lines of files
+● join – Join lines of two files on a common field
+● comm – Compare two sorted files line by line
+● diff – Compare files line by line
+● patch – Apply a diff file to an original
+● tr – Translate or delete characters
+#● sed – Stream editor for filtering and transforming text
+● aspell – Interactive spell checker
+
+
+Double quotes dosen't suppress : $, \, `
+This means that word-splitting, pathname expansion, tilde expansion,
+and brace expan- sion are suppressed, but parameter expansion, arithmetic expansion, 
+and command sub- stitution are still carried out.
 
 ##############################################################################
 # DIRECTORY COMMANDS
